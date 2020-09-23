@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family:  cursive;
+    background-color: aquamarine;
+
+}
+
+.container{
+    max-width: 1000px;
+    background-color: beige;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.my-image{
+    height: 120px;
+    width: 100px;
+    border: solid wheat 3px;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #0A95DC;
+}
+
+.contact{
+    float: right;
+    padding: 30px;
+
+
+}
+.contact a{
+    text-decoration: none;
+    color:rgb(0, 174, 255);
+    
+}
+
+.contact a:hover{
+    color: tomato;
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid black 3px;
+    border-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+/*-----------------------
+Personal section start hear
+-------------------------*/
+#personal-section{
+
+}
+
+
+.contain{
+
+}
+
+.left-div{
+    float: left;
+    width: 30%;
+
+}
+
+.right-div{
+    float: left;
+    width: 70%;
+    text-align: justify;
+
+}
+
+.common-hr{
+    border: black solid 1px;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+
+
+}
+.educational-template-left{
+    float: left;
+    width: 45%;
+}
+
+.educational-template-right{
+    float: right;
+    width: 45%;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.footer a{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer p{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 20px;
+}
